@@ -1,9 +1,10 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import About from "./pages/About";
-import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+import Tech from "./pages/Tech";
 
 function App() {
   return (
@@ -11,12 +12,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/tech" element={<Tech />} />
       </Routes>
-
-      <Footer />
     </BrowserRouter>
   );
 }
 
 export default App;
+
