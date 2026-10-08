@@ -11,7 +11,7 @@ function Home() {
       <main>
         <section className="relative isolate flex min-h-[100svh] items-center justify-center overflow-hidden bg-[#090909] px-5 pb-20 pt-28 text-center">
           <video autoPlay muted loop playsInline preload="auto" aria-hidden="true" className="absolute inset-0 -z-20 size-full object-cover">
-            <source src="https://res.cloudinary.com/dz0gsqsrk/video/upload/v1790460050/heroIntro_phio4d.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dz0gsqsrk/video/upload/vc_h264,f_mp4/v1790460050/heroIntro_phio4d.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(0,0,0,.28)_0%,rgba(0,0,0,.12)_38%,rgba(0,0,0,.74)_100%)]" />
           <div className="max-w-5xl animate-[fade-in_1s_ease-out_both]">
